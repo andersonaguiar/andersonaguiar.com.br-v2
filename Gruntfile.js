@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                 src: ['_config.yml'],
                 overwrite: true,                 // overwrite matched source files
                 replacements: [{
-                    from: /(url:\s+)''/g,
+                    from: /(url:\s+)'.*?'/g,
                     to: "$1'http://0.0.0.0:4000'"
                 }]
             },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                 src: ['_config.yml'],
                 overwrite: true,                 // overwrite matched source files
                 replacements: [{
-                    from: /(url:\s+)''/g,
+                    from: /(url:\s+)'.*?'/g,
                     to: "$1'http://andersonaguiar.github.io/andersonaguiar.com.br-v2'"
                 }]
             }
