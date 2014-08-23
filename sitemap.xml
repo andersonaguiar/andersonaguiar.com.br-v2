@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://0.0.0.0:4000</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2</loc>
     </url>
     
     
     <url>
-        <loc>http://0.0.0.0:4000/404.html</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/404.html</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/about/</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/about/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/feed.xml</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/index.html</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/index.html</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/posts/</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/posts/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/sitemap.xml</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/tags/</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/tags/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/theme-setup/</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/theme-setup/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://0.0.0.0:4000/braziljs-2014/</loc>
+        <loc>http://andersonaguiar.github.io/andersonaguiar.com.br-v2/braziljs-2014/</loc>
     </url>
     
 </urlset>
