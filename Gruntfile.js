@@ -11,22 +11,40 @@ module.exports = function(grunt) {
 
         // modify URL
         replace: {
-            dev: {
-                src: ['_config.yml'],
-                overwrite: true,                 // overwrite matched source files
-                replacements: [{
-                    from: /(url:\s+)'.*?'/g,
-                    to: "$1''"
-                }]
-            },
-            dist: {
-                src: ['_config.yml'],
-                overwrite: true,                 // overwrite matched source files
-                replacements: [{
-                    from: /(url:\s+)'.*?'/g,
-                    to: "$1'http://andersonaguiar.github.io/andersonaguiar.com.br-v2'"
-                }]
-            }
+            // URL
+                devUrl: {
+                    src: ['_config.yml'],
+                    overwrite: true,                 // overwrite matched source files
+                    replacements: [{
+                        from: /(url:\s+)'.*?'/g,
+                        to: "$1''"
+                    }]
+                },
+                distUrl: {
+                    src: ['_config.yml'],
+                    overwrite: true,                 // overwrite matched source files
+                    replacements: [{
+                        from: /(url:\s+)'.*?'/g,
+                        to: "$1'http://andersonaguiar.github.io/andersonaguiar.com.br-v2'"
+                    }]
+                },
+            // BS
+                devBS: {
+                    src: ['_includes/scripts.html'],
+                    overwrite: true,                 // overwrite matched source files
+                    replacements: [{
+                        from: /(<\!-- BS -->)\n*\t*.*?(<\!-- \/\/ -->)/g,
+                        to: "$1\n\<script type='text\/javascript'\>\/\/\<\!\[CDATA\[\ndocument.write(\"<script async src='//HOST:3001/browser-sync-client.1.3.6.js'><\/script>\".replace(/HOST/g, location.hostname));\n//]]></script>\n$2"
+                    }]
+                },
+                distBS: {
+                    src: ['_includes/scripts.html'],
+                    overwrite: true,                 // overwrite matched source files
+                    replacements: [{
+                        from: /(<\!-- BS -->\n).*?\n.*\n.*\n(.*>)/g,
+                        to: "$1\n$2"
+                    }]
+                },
         },
 
         recess: {
@@ -175,8 +193,8 @@ module.exports = function(grunt) {
         'svgmin'
     ]);
 
-    grunt.registerTask('dev', ['replace:dev', 'exec:jekyllBuild', 'browserSync', 'watch']);
+    grunt.registerTask('dev', ['replace:devUrl', 'replace:devBS', 'exec:jekyllBuild', 'browserSync', 'watch']);
 
-    grunt.registerTask('build', ['replace:dist', 'default', 'exec:jekyllBuild', 'gh-pages']);
+    grunt.registerTask('build', ['replace:distUrl', 'replace:distBS', 'default', 'exec:jekyllBuild', 'gh-pages']);
 
 };
