@@ -16,7 +16,7 @@ module.exports = function(grunt) {
                 overwrite: true,                 // overwrite matched source files
                 replacements: [{
                     from: /(url:\s+)'.*?'/g,
-                    to: "$1'http://0.0.0.0:4000'"
+                    to: "$1''"
                 }]
             },
             dist: {
@@ -175,7 +175,7 @@ module.exports = function(grunt) {
         'svgmin'
     ]);
 
-    grunt.registerTask('dev', ['replace:dev', 'browserSync', 'watch']);
+    grunt.registerTask('dev', ['replace:dev', 'exec:jekyllBuild', 'browserSync', 'watch']);
 
     grunt.registerTask('build', ['replace:dist', 'default', 'exec:jekyllBuild', 'gh-pages']);
 
