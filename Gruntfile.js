@@ -132,6 +132,13 @@ module.exports = function(grunt) {
             }
         },
 
+        copy: {
+            CNAME: {
+                src: 'CNAME',
+                dest: '_site/',
+            },
+        },
+
         'gh-pages': {
             options: {
                 base: '_site',
@@ -183,6 +190,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-svgmin');
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-text-replace');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Register tasks
     grunt.registerTask('default', [
@@ -195,6 +203,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('dev', ['replace:devUrl', 'replace:devBS', 'exec:jekyllBuild', 'browserSync', 'watch']);
 
-    grunt.registerTask('build', ['replace:distUrl', 'replace:distBS', 'default', 'exec:jekyllBuild', 'gh-pages']);
+    grunt.registerTask('build', ['replace:distUrl', 'replace:distBS', 'default', 'exec:jekyllBuild', 'copy:CNAME', 'gh-pages']);
 
 };
