@@ -5,14 +5,14 @@ reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 # url:              http://www.andesonaguiar.com.br
-url:              'http://andersonaguiar.github.io/andersonaguiar.com.br-v2'
+url:              ''
 baseUrl:          'http://andersonaguiar.github.io/andersonaguiar.com.br-v2'
 
 # Owner/author information
 owner:
   name:           Anderson Aguiar
   avatar:         andersonaguiar.jpg
-  bio:            "I'm a Front-end engineer, who lives in Florianópolis / Brazil, passionate for technology <3"
+  bio:            "Front-end engineer"
   email:          andersonaguiar.web@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        andersonaguiar
