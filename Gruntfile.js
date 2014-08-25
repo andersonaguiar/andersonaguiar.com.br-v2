@@ -25,7 +25,7 @@ module.exports = function(grunt) {
                     overwrite: true,                 // overwrite matched source files
                     replacements: [{
                         from: /(url:\s+)'.*?'/g,
-                        to: "$1'http://andersonaguiar.github.io/andersonaguiar.com.br-v2'"
+                        to: "$1'http://www.andersonaguiar.com.br'"
                     }]
                 },
             // BS
