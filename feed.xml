@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.andersonaguiar.com.br/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br" />
-<updated>2014-08-25T01:06:47-03:00</updated>
+<updated>2014-08-25T13:03:28-03:00</updated>
 <id>http://www.andersonaguiar.com.br/</id>
 <author>
   <name>Anderson Aguiar</name>
@@ -47,7 +47,7 @@
 
 &lt;p&gt;As palestras na grande maioria foram fantásticas! Vou falar de algumas que realmente eu curti demais.&lt;/p&gt;
 
-&lt;p&gt;Data-binding [R]evolution com o &lt;a href=&quot;https://twitter.com/leobalter&quot;&gt;Léo Balter&lt;/a&gt; falou sobre várias coisas legais e também sobre ES6/ES7, onde o item marcante foi o observable e o exemplo de player utilizando observable com fallback para proxies. &lt;/p&gt;
+&lt;p&gt;Data-binding [R]evolution com o &lt;a href=&quot;https://twitter.com/leobalter&quot;&gt;Léo Balter&lt;/a&gt; falou sobre várias coisas legais e também sobre ES6/ES7, onde o item marcante foi o Object.observe e o exemplo de player utilizando o Object.observe com fallback para proxies. &lt;/p&gt;
 
 &lt;p&gt;Single page apps com o &lt;a href=&quot;https://twitter.com/eduardolundgren&quot;&gt;Eduardo Lundgren&lt;/a&gt;, onde foi anunciado o &lt;a href=&quot;https://github.com/eduardolundgren/senna&quot;&gt;SENNA&lt;/a&gt; ferramenta incrível para criar esse tipo de aplicação de forma rápida, onde a requisição será apenas o conteúdo que precisa ser carregado nas surfaces definidas, tendo Bookmarkability e SEO, History Navigation, UI feedback e outras features. &lt;/p&gt;
 
