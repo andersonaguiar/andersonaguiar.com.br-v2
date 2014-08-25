@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.andersonaguiar.com.br/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br" />
-<updated>2014-08-25T13:03:28-03:00</updated>
+<updated>2014-08-25T15:33:46-03:00</updated>
 <id>http://www.andersonaguiar.com.br/</id>
 <author>
   <name>Anderson Aguiar</name>
@@ -109,7 +109,8 @@
 
 &lt;p&gt;MAURICIO WOLFF - Limpando CSS gigantes com JS	 &lt;/p&gt;
 
-&lt;p&gt;EDUARDO LUNDGREN - Single Page Applications Done Right  &lt;/p&gt;
+&lt;p&gt;EDUARDO LUNDGREN - Single Page Applications Done Right&lt;br /&gt;
+https://speakerdeck.com/eduardolundgren/single-page-applications-done-right&lt;/p&gt;
 
 &lt;p&gt;GUILLERMO RAUCH - undefinned  &lt;/p&gt;
 
