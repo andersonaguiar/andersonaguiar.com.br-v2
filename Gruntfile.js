@@ -34,7 +34,7 @@ module.exports = function(grunt) {
                     overwrite: true,                 // overwrite matched source files
                     replacements: [{
                         from: /(<\!-- BS -->)\n*\t*.*?(<\!-- \/\/ -->)/g,
-                        to: "$1\n\<script type='text\/javascript'\>\/\/\<\!\[CDATA\[\ndocument.write(\"<script async src='//HOST:3000/browser-sync-client.1.3.6.js'><\/script>\".replace(/HOST/g, location.hostname));\n//]]></script>\n$2"
+                        to: "$1\n\<script type='text\/javascript'\>\/\/\<\!\[CDATA\[\ndocument.write\(\"<script async src='\/\/HOST:3000\/browser-sync-client.1.3.6.js'></script>\".replace(\/HOST\/g, location\.hostname\)\);\n//]]><\/script>\n$2"
                     }]
                 },
                 distBS: {
@@ -200,6 +200,8 @@ module.exports = function(grunt) {
         'imagemin',
         'svgmin'
     ]);
+
+    grunt.registerTask('configDist', ['replace:distUrl', 'replace:distBS']);
 
     grunt.registerTask('dev', ['replace:devUrl', 'replace:devBS', 'exec:jekyllBuild', 'browserSync', 'watch']);
 
