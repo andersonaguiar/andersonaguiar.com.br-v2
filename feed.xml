@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.andersonaguiar.com.br/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br" />
-<updated>2014-08-25T23:51:04-03:00</updated>
+<updated>2014-08-26T16:29:01-03:00</updated>
 <id>http://www.andersonaguiar.com.br/</id>
 <author>
   <name>Anderson Aguiar</name>
@@ -125,7 +125,8 @@
 
 &lt;p&gt;ROB DODSON - The Web Component Ecosystem&lt;/p&gt;
 
-&lt;p&gt;LEONARDO BALTER - Data-binding [R]evolution&lt;/p&gt;
+&lt;p&gt;LEONARDO BALTER - Data-binding [R]evolution
+&lt;a href=&quot;http://leobalter.github.io/data-binding-slides/output/#1&quot;&gt;http://leobalter.github.io/data-binding-slides/output/#1&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;MILLER MEDEIROS - AST, CST e Ferramentas Incríveis&lt;br /&gt;
 &lt;a href=&quot;http://slides.millermedeiros.com/braziljs/ast/#/&quot;&gt;http://slides.millermedeiros.com/braziljs/ast/#/&lt;/a&gt;&lt;/p&gt;
