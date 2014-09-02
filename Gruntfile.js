@@ -1,6 +1,12 @@
 'use strict';
 module.exports = function(grunt) {
 
+    // time of tasks
+    require('time-grunt')(grunt);
+
+    // Load all tasks
+    require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
     grunt.initConfig({
         //exec commands
         exec: {
@@ -12,41 +18,42 @@ module.exports = function(grunt) {
         // modify URL
         replace: {
             // URL
-                devUrl: {
-                    src: ['_config.yml'],
-                    overwrite: true,                 // overwrite matched source files
-                    replacements: [{
-                        from: /(url:\s+)'.*?'/g,
-                        to: "$1''"
-                    }]
-                },
-                distUrl: {
-                    src: ['_config.yml'],
-                    overwrite: true,                 // overwrite matched source files
-                    replacements: [{
-                        from: /(url:\s+)'.*?'/g,
-                        to: "$1'http://www.andersonaguiar.com.br'"
-                    }]
-                },
+            devUrl: {
+                src: ['_config.yml'],
+                overwrite: true,                 // overwrite matched source files
+                replacements: [{
+                    from: /(url:\s+)'.*?'/g,
+                    to: "$1''"
+                }]
+            },
+            distUrl: {
+                src: ['_config.yml'],
+                overwrite: true,                 // overwrite matched source files
+                replacements: [{
+                    from: /(url:\s+)'.*?'/g,
+                    to: "$1'http://www.andersonaguiar.com.br'"
+                }]
+            },
             // BS
-                devBS: {
-                    src: ['_includes/scripts.html'],
-                    overwrite: true,                 // overwrite matched source files
-                    replacements: [{
-                        from: /(<\!-- BS -->)\n*\t*.*?(<\!-- \/\/ -->)/g,
-                        to: "$1\n\<script type='text\/javascript'\>\/\/\<\!\[CDATA\[\ndocument.write\(\"<script async src='\/\/HOST:3000\/browser-sync-client.1.3.6.js'></script>\".replace(\/HOST\/g, location\.hostname\)\);\n//]]><\/script>\n$2"
-                    }]
-                },
-                distBS: {
-                    src: ['_includes/scripts.html'],
-                    overwrite: true,                 // overwrite matched source files
-                    replacements: [{
-                        from: /(<\!-- BS -->\n).*?\n.*\n.*\n(.*>)/g,
-                        to: "$1\n$2"
-                    }]
-                },
+            devBS: {
+                src: ['_includes/scripts.html'],
+                overwrite: true,                 // overwrite matched source files
+                replacements: [{
+                    from: /(<\!-- BS -->)\n*\t*.*?(<\!-- \/\/ -->)/g,
+                    to: "$1\n\<script type='text\/javascript'\>\/\/\<\!\[CDATA\[\ndocument.write\(\"<script async src='\/\/HOST:3000\/browser-sync-client.1.3.6.js'><\\\/script>\".replace(\/HOST\/g, location\.hostname\)\);\n//]]><\/script>\n$2"
+                }]
+            },
+            distBS: {
+                src: ['_includes/scripts.html'],
+                overwrite: true,                 // overwrite matched source files
+                replacements: [{
+                    from: /(<\!-- BS -->\n).*?\n.*\n.*\n(.*>)/g,
+                    to: "$1\n$2"
+                }]
+            },
         },
 
+        // compress css and compile less
         recess: {
             dist: {
                 options: {
@@ -68,6 +75,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // minify js
         uglify: {
             dist: {
                 files: {
@@ -76,6 +84,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // minify imags
         imagemin: {
             dist: {
                 options: {
@@ -91,6 +100,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // minify svg
         svgmin: {
             dist: {
                 files: [{
@@ -102,6 +112,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // watch for changes
         watch: {
             less: {
                 files: [
@@ -132,6 +143,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // make a copy of CNAME to _site
         copy: {
             CNAME: {
                 src: 'CNAME',
@@ -139,6 +151,7 @@ module.exports = function(grunt) {
             },
         },
 
+        // task for build _site into gh-pages on Github
         'gh-pages': {
             options: {
                 base: '_site',
@@ -146,10 +159,11 @@ module.exports = function(grunt) {
                 message: 'Publish new post',
                 dotfiles: true
             },
-            // These files will get pushed to the `bar` branch.
+            // These files will get pushed to the branch.
             src: ['**/*']
         },
 
+        // clean files
         clean: {
             dist: [
                 'assets/css/main.min.css',
@@ -166,31 +180,11 @@ module.exports = function(grunt) {
                     ]
                 },
                 options: {
-                    watchTask: true,
-                    // server: {
-                    //     baseDir: "./"
-                    // },
-                    // proxy: {
-                    //     host: "192.168.25.5",
-                    //     port: 4000
-                    // }
+                    watchTask: true
                 }
             }
         },
     });
-
-    // Load tasks
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-gh-pages');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-recess');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-browser-sync');
-    grunt.loadNpmTasks('grunt-svgmin');
-    grunt.loadNpmTasks('grunt-exec');
-    grunt.loadNpmTasks('grunt-text-replace');
-    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Register tasks
     grunt.registerTask('default', [
@@ -206,5 +200,4 @@ module.exports = function(grunt) {
     grunt.registerTask('dev', ['replace:devUrl', 'replace:devBS', 'exec:jekyllBuild', 'browserSync', 'watch']);
 
     grunt.registerTask('build', ['replace:distUrl', 'replace:distBS', 'default', 'exec:jekyllBuild', 'copy:CNAME', 'gh-pages']);
-
 };
