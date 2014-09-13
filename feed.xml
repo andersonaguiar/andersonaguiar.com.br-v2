@@ -4,13 +4,108 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.andersonaguiar.com.br/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br" />
-<updated>2014-09-12T21:31:09-03:00</updated>
+<updated>2014-09-13T01:30:36-03:00</updated>
 <id>http://www.andersonaguiar.com.br/</id>
 <author>
   <name>Anderson Aguiar</name>
   <uri>http://www.andersonaguiar.com.br/</uri>
   <email>andersonaguiar.web@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Plugins Sublime Text]]></title>
+ <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br/plugins-sublimetext/" />
+  <id>http://www.andersonaguiar.com.br/plugins-sublimetext</id>
+  <updated>2014-09-21T00:00:00-00:00</updated>
+  <published>2014-09-12T00:00:00-03:00</published>
+  
+  <author>
+    <name>Anderson Aguiar</name>
+    <uri>http://www.andersonaguiar.com.br</uri>
+    <email>andersonaguiar.web@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Faxina…&lt;/p&gt;
+
+&lt;p&gt;Essa semana estava organizando vários documentos no Dropbox e me assustei com a relação de plugins que eu havia instalado no meu Sublime Text 3(eram mais de 40 :O), então resolvi fazer uma LIMPA e compartilhar minha lista de “sobreviventes” aqui no site com vocês. &lt;/p&gt;
+
+&lt;p&gt;Com certeza boa parte dos plugins que irei apresentar aqui a maioria de vocês já conhecem, mas um ou outro é possível que dê para pescar, então vai lá:&lt;/p&gt;
+
+&lt;h2 id=&quot;lista&quot;&gt;Lista&lt;/h2&gt;
+
+&lt;h3 id=&quot;emmethttpssublimewbondnetpackagesemmet&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/Emmet&quot;&gt;#Emmet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Claro… o velho e bom Emmet ex Zen Coding. Como abandoná-lo?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/emmet.gif&quot; alt=&quot;Emmet&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;wakatimehttpssublimewbondnetpackageswakatime&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/WakaTime&quot;&gt;#WakaTime&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Esse é muito legal, ele observa o tempo que você fica no Sublime e gera relatórios de horas, linguagens 
+que você utiliza, entre outros. O site do plugin é &lt;a href=&quot;https://wakatime.com/&quot;&gt;WakaTime.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/wakatime.gif&quot; alt=&quot;WakaTime&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sidebarenhancementshttpssublimewbondnetpackagessidebarenhancements&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/SideBarEnhancements&quot;&gt;#Side​Bar​Enhancements&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Esse cara dá uma tunada nas opções do clique direito do mouse em cima dos arquivos e diretórios, 
+listando uma série ações úteis!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/side​bar​enhancements.gif&quot; alt=&quot;Side​Bar​Enhancements&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;csscombhttpssublimewbondnetpackagescsscomb&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/CSScomb&quot;&gt;#CSSComb&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Quem não tem o hábito de organizar seu CSS, ou que trabalha em equipe, esse plugin é ótimo para 
+ter uma padrão de código onde a forma que você entregará é a mesma que você irá receber o código.&lt;/p&gt;
+
+&lt;p&gt;A configuração padrão dele é a exibida na imagem, mas é configurável.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/csscomb.gif&quot; alt=&quot;CSSComb&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;color-highlighterhttpssublimewbondnetpackagescolor20highlighter&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/Color%20Highlighter&quot;&gt;#Color Highlighter&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Pra quem quer ter uma base de qual melhor cor pra colocar na página, basta clicar em cima do valor
+declarado :D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/colorhighlighter.gif&quot; alt=&quot;Color Highlighter&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dracula-themehttpssublimewbondnetpackagesdracula20color20scheme&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/Dracula%20Color%20Scheme&quot;&gt;#Dracula Theme&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Por enquanto estou utilizando o tema do Dracula, achei bacana a combinação das cores.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/draculatheme.png&quot; alt=&quot;Dracula Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;*Estarei atualizando esse post sempre que achar que cabe algum outro plugin aqui.&lt;/p&gt;
+
+&lt;p&gt;Minha lista completa de plugins pode ser obtida nesse link: 
+&lt;a href=&quot;https://github.com/andersonaguiar/plugins-sublime-text&quot;&gt;https://github.com/andersonaguiar/plugins-sublime-text&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;desafio&quot;&gt;Desafio&lt;/h2&gt;
+
+&lt;p&gt;Agora é modinha esse negócio de desafios, eu nunca havia feito isso, mas então pra entrar um pouco 
+na onda dessa frescurada, mas em um contexto de desenvolvimento.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/desafio.gif&quot; alt=&quot;Dracula Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Então eu lanço o desafio de postar &lt;strong&gt;quais 
+plugins utilizados no sublime&lt;/strong&gt;, aos amigos: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://diogo.nu/&quot;&gt;Diogo Moretti&lt;/a&gt;, 
+&lt;a href=&quot;http://www.zigolis.com.br/&quot;&gt;Gabriel Zigolis&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/pssdn&quot;&gt;Bruno Possidonio&lt;/a&gt;,
+&lt;a href=&quot;http://www.felipefialho.com/&quot;&gt;Felipe Fialho&lt;/a&gt;, &lt;a href=&quot;http://da2k.com.br/&quot;&gt;Fernando Daciuk&lt;/a&gt;, 
+&lt;a href=&quot;http://pedronauck.com/&quot;&gt;Pedro Nauck&lt;/a&gt; e &lt;a href=&quot;http://eduardomatos.me/&quot;&gt;Eduardo Mattos&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Obs.: Pode ser um post no site ou um comentário aqui embaixo com o link do seu 
+Package Controll.sublime-settings :)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Recomendo a todos fazerem essa “limpa”, pois vários dos plugins que instalamos é que achamos 
+úteis a primeiro momento mas depois cai em desuso e fica fazendo lixo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.andersonaguiar.com.br/plugins-sublimetext/&quot;&gt;Plugins Sublime Text&lt;/a&gt; was originally published by Anderson Aguiar at &lt;a href=&quot;http://www.andersonaguiar.com.br&quot;&gt;Anderson Aguiar&lt;/a&gt; on September 12, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
