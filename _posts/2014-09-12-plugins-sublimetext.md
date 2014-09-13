@@ -2,7 +2,7 @@
 layout: post
 title: Plugins Sublime Text
 description: "Lista de plugins que utilizo no dia-a-dia os quais considero muito úteis para desenvolvedores."
-modified: 2014-09-21
+modified: 2014-09-13
 tags: [sublimetext]
 image:
   feature: abstract-4.jpg
