@@ -81,13 +81,37 @@ body {
 				box-shadow:         0px -1px 30px 0px rgba(50, 50, 50, 0.75);
 			}
 		}
+		.myself {
+			img {
+				opacity: 0;
+				width: 200px;
+
+				transition: all .5s ease-in;
+				-moz-transition: all .5s ease-in;
+				-webkit-transition: all .5s ease-in;
+				-o-transition: all .5s ease-in;
+			}
+			&.loaded {
+				img {
+					opacity: 1;
+				}
+			}
+		}
 	}
 	h1 {
+		opacity: 0;
 		margin: 10px;
 		font-weight: 700;
 		margin: 10px 60px;
 		color: @white;
 		text-shadow: 1px 1px 4px fade(@base-color,60);
+		&.loaded {
+			opacity: 1;
+			transition: opacity .5s ease-in .8s;
+			-moz-transition: opacity .5s ease-in .8s;
+			-webkit-transition: opacity .5s ease-in .8s;
+			-o-transition: opacity .5s ease-in .8s;
+		}
 		a {
 			color: @white;
 		}
@@ -95,9 +119,17 @@ body {
 		}
 	}
 	h2 {
+		opacity: 0;
 		margin: 0;
 		color: @white;
 		text-transform: uppercase;
+		&.loaded {
+			opacity: 1;
+			transition: opacity .5s ease-in .8s;
+			-moz-transition: opacity .5s ease-in .8s;
+			-webkit-transition: opacity .5s ease-in .8s;
+			-o-transition: opacity .5s ease-in .8s;
+		}
 		@media @medium {
 			a {
 				color: @white;

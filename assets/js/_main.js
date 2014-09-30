@@ -30,6 +30,8 @@ $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gi
 
 // Magnific-Popup options
 $(document).ready(function() {
+  $('.header-title-wrap .myself, .header-title-wrap h1, .header-title-wrap h2').addClass('loaded');
+  
   $('.image-popup').magnificPopup({
     type: 'image',
     tLoading: 'Loading image #%curr%...',
@@ -47,3 +49,6 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+
+
