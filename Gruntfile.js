@@ -176,7 +176,9 @@ module.exports = function(grunt) {
             dev: {
                 bsFiles: {
                     src : [
-                        '_site/**/*'
+                        '_site/index.html',
+                        '_site/assets/**/*',
+                        '!_site/assets/less/**/*'
                     ]
                 },
                 options: {
