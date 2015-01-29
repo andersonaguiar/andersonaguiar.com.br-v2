@@ -112,36 +112,6 @@ module.exports = function(grunt) {
             }
         },
 
-        // watch for changes
-        watch: {
-            less: {
-                files: [
-                    'assets/less/*.less',
-                    'assets/less/bootstrap/*.less'
-                ],
-                tasks: ['recess']
-            },
-
-            js: {
-                files: [
-                    'assets/js/**/*.js'
-                ],
-                tasks: ['uglify']
-            },
-
-            jekyll: {
-                files: [
-                    '_layouts/*.html',
-                    '_posts/*.md',
-                    '_includes/*.html',
-                    'assets/**/*',
-                    '_config.yml',
-                    '*.md',
-                    '*.html' 
-                ],
-                tasks: ['exec:jekyllBuild']
-            }
-        },
 
         // make a copy of CNAME to _site
         copy: {
@@ -171,14 +141,47 @@ module.exports = function(grunt) {
             ]
         },
 
+        // watch for changes
+        watch: {
+            less: {
+                files: [
+                    'assets/less/*.less',
+                    'assets/less/bootstrap/*.less'
+                ],
+                tasks: ['recess']
+            },
+
+            js: {
+                files: [
+                    'assets/js/**/*.js'
+                ],
+                tasks: ['uglify']
+            },
+
+            grunt: { files: ['Gruntfile.js'] },
+
+            jekyll: {
+                files: [
+                    '_layouts/*.html',
+                    '_posts/*.md',
+                    '_includes/*.html',
+                    'assets/**/*',
+                    '_config.yml',
+                    '*.md',
+                    '*.html' 
+                ],
+                tasks: ['exec:jekyllBuild']
+            }
+        },
+
         // Keep multiple browsers & devices in sync when building websites.
         browserSync: {
             dev: {
                 bsFiles: {
                     src : [
                         '_site/index.html',
-                        '_site/assets/**/*',
-                        '!_site/assets/less/**/*'
+                        // '_site/assets/css/**/*',
+                        // '_site/assets/js/**/*'
                     ]
                 },
                 options: {
