@@ -12,7 +12,7 @@ baseUrl:          'http://www.andersonaguiar.com.br'
 owner:
   name:           Anderson Aguiar
   avatar:         andersonaguiar.jpg
-  bio:            "Full-stack Developer"
+  bio:            "Full-Stack Developer"
   email:          andersonaguiar.web@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        andersonaguiar
