@@ -4,13 +4,54 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.andersonaguiar.com.br/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br" />
-<updated>2015-03-16T23:06:42-03:00</updated>
+<updated>2015-09-24T23:47:21-03:00</updated>
 <id>http://www.andersonaguiar.com.br/</id>
 <author>
   <name>Anderson Aguiar</name>
   <uri>http://www.andersonaguiar.com.br/</uri>
   <email>andersonaguiar.web@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Automatizando de forma modular e estruturada grandes aplicações com Gulp]]></title>
+ <link rel="alternate" type="text/html" href="http://www.andersonaguiar.com.br/talk-anderson-aguiar-tdc-2015-gulp/" />
+  <id>http://www.andersonaguiar.com.br/talk-anderson-aguiar-tdc-2015-gulp</id>
+  <updated>2015-09-24T00:00:00-00:00</updated>
+  <published>2015-09-24T00:00:00-03:00</published>
+  
+  <author>
+    <name>Anderson Aguiar</name>
+    <uri>http://www.andersonaguiar.com.br</uri>
+    <email>andersonaguiar.web@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Automatização de tarefas utilizando Gulp de forma contextualizada&lt;/p&gt;
+
+&lt;p&gt;Há algum tempo criei um repositório no Github com o propósito de ter uma
+forma customizada da utilização do Gulp. Basicamente é um jeito ainda
+mais prático de utilizar esse task runner.&lt;/p&gt;
+
+&lt;p&gt;Link do projeto para utilizar/contribuir:
+&lt;a href=&quot;https://github.com/andersonaguiar/GulpFile&quot;&gt;https://github.com/andersonaguiar/GulpFile&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Este projeto foi implantado em vários projetos pessoais e
+também no e-commerce da &lt;a href=&quot;http://arezzo.com.br&quot;&gt;Arezzo&lt;/a&gt;, onde se teve um ganho
+tremendo em criação e entendimento das tasks.&lt;/p&gt;
+
+&lt;p&gt;Ficou com dúvidas?&lt;/p&gt;
+
+&lt;h2 id=&quot;vdeo&quot;&gt;Vídeo&lt;/h2&gt;
+
+&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://d1snlc0orfrhj.cloudfront.net/static/flash/svmplayer.swf&quot; width=&quot;100%&quot; height=&quot;100%&quot; id=&quot;player&quot; title=&quot;Adobe Flash Player&quot; style=&quot;visibility: visible;&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;opaque&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;server=rtmpe://video.infoq.com/cfx/st/&amp;amp;streams=mp4:presentations-br/tdc_florianopolis_2015-AndersonAguiar-Gulp.mp4,0&quot; /&gt;&lt;/object&gt;
+
+&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/n98IMqqtiAbS7&quot; width=&quot;100%&quot; height=&quot;420&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/andersonagr/automatizando-grandes-aplicaes-de-forma-modular-e-estruturada-com-gulp&quot; title=&quot;Automating Large Applications on Modular and Structured Form with Gulp&quot; target=&quot;_blank&quot;&gt;Automating Large Applications on Modular and Structured Form with Gulp&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/andersonagr&quot; target=&quot;_blank&quot;&gt;Anderson Aguiar&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.andersonaguiar.com.br/talk-anderson-aguiar-tdc-2015-gulp/&quot;&gt;Automatizando de forma modular e estruturada grandes aplicações com Gulp&lt;/a&gt; was originally published by Anderson Aguiar at &lt;a href=&quot;http://www.andersonaguiar.com.br&quot;&gt;Anderson Aguiar&lt;/a&gt; on September 24, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -78,7 +119,7 @@ de Web Components.&lt;/p&gt;
 &lt;h2 id=&quot;porque-eu-devo-utilizar-react-como-view-do-backbone-se-o-mesmo-j-possui-sua-prpria-camada-de-view&quot;&gt;Porque eu devo utilizar React como view do Backbone se o mesmo já possui sua própria camada de View?&lt;/h2&gt;
 
 &lt;p&gt;Perfeito. Essa é a pergunta chave para saber se é viável ou não integrar React à sua aplicação Backbone. 
-Para responder a essa pergunta você deve se fazer outras duas perguntas: &lt;/p&gt;
+Para responder a essa pergunta você deve se fazer outras duas perguntas:&lt;/p&gt;
 
 &lt;h4 id=&quot;minha-aplicao-precisar-manipular-a-dom-com-muita-frequncia&quot;&gt;“Minha aplicação precisará manipular a DOM com muita frequência?”&lt;/h4&gt;
 
@@ -117,11 +158,11 @@ pelo onKeyUp nos inputs de pesquisa. Vamos partir para a parte explicativa…&lt
 &lt;p&gt;Irei pontuar onde o React estará agindo e de que forma(todos os títulos abaixo serão links para o code no Github).&lt;/p&gt;
 
 &lt;p&gt;Para aplicar o React, a primeira coisa a se fazer em um projeto com Backbone é apagar o diretório de views, pois 
-quem fará esse papel será o React. &lt;/p&gt;
+quem fará esse papel será o React.&lt;/p&gt;
 
 &lt;h3 id=&quot;appjshttpsgithubcomandersonaguiarbackbone-react-exampleblobmasterappassetsjsappjs&quot;&gt;&lt;a href=&quot;https://github.com/andersonaguiar/backbone-react-example/blob/master/app/assets/js/app.js&quot;&gt;app.js&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Esté é o nosso arquivo de inicialização, é nele que está sendo definido o Router e os renders dos componentes do React. &lt;/p&gt;
+&lt;p&gt;Esté é o nosso arquivo de inicialização, é nele que está sendo definido o Router e os renders dos componentes do React.&lt;/p&gt;
 
 &lt;h3 id=&quot;routerjshttpsgithubcomandersonaguiarbackbone-react-exampleblobmasterappassetsjsrouterjs&quot;&gt;&lt;a href=&quot;https://github.com/andersonaguiar/backbone-react-example/blob/master/app/assets/js/router.js&quot;&gt;router.js&lt;/a&gt;&lt;/h3&gt;
 
@@ -171,7 +212,7 @@ a qual está munida de grandes profissionais, gente com sede de conhecimento e d
 Dois caras eu preciso destacar, eles contribuíram bastante para o meu aprendizado, são eles: 
 &lt;a href=&quot;http://www.zigolis.com.br/blog/&quot;&gt;Gabriel Zigolis&lt;/a&gt; e &lt;a href=&quot;http://sergiorsiqueira.com/&quot;&gt;Sérgio Siqueira&lt;/a&gt;,
 gente assim faz a diferença na comunidade, agir sem estrelismo e compartilhar a essência do que somos e do que nos fazem cada vez mais profissionais.&lt;br /&gt;&lt;br /&gt; 
-&lt;strong&gt;O conhecimento.&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt; &lt;/p&gt;
+&lt;strong&gt;O conhecimento.&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;E aí, curtiu? Comente o que achou da junção dessas duas tecnologias ;)&lt;/p&gt;
 
@@ -194,7 +235,7 @@ gente assim faz a diferença na comunidade, agir sem estrelismo e compartilhar a
   </author>
   <content type="html">&lt;p&gt;Faxina…&lt;/p&gt;
 
-&lt;p&gt;Essa semana estava organizando vários documentos no Dropbox e me assustei com a relação de plugins que eu havia instalado no meu Sublime Text 3(eram mais de 40 :O), então resolvi fazer uma LIMPA e compartilhar minha lista de “sobreviventes” aqui no site com vocês. &lt;/p&gt;
+&lt;p&gt;Essa semana estava organizando vários documentos no Dropbox e me assustei com a relação de plugins que eu havia instalado no meu Sublime Text 3(eram mais de 40 :O), então resolvi fazer uma LIMPA e compartilhar minha lista de “sobreviventes” aqui no site com vocês.&lt;/p&gt;
 
 &lt;p&gt;Com certeza boa parte dos plugins que irei apresentar aqui a maioria de vocês já conhecem, mas um ou outro é possível que dê para pescar, então vai lá:&lt;/p&gt;
 
@@ -244,7 +285,7 @@ declarado :D&lt;/p&gt;
 
 &lt;p&gt;*Estarei atualizando esse post sempre que achar que cabe algum outro plugin aqui.&lt;/p&gt;
 
-&lt;p&gt;Minha lista completa de plugins pode ser obtida nesse link: 
+&lt;p&gt;Minha lista completa de plugins pode ser obtida nesse link:
 &lt;a href=&quot;https://github.com/andersonaguiar/plugins-sublime-text&quot;&gt;https://github.com/andersonaguiar/plugins-sublime-text&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;desafio&quot;&gt;Desafio&lt;/h2&gt;
@@ -255,12 +296,12 @@ na onda dessa frescurada, mas em um contexto de desenvolvimento.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://www.andersonaguiar.com.br/images/plugins-sublime/desafio.gif&quot; alt=&quot;Dracula Theme&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Então eu lanço o desafio de postar &lt;strong&gt;quais 
-plugins utilizados no sublime&lt;/strong&gt;, aos amigos: &lt;/p&gt;
+plugins utilizados no sublime&lt;/strong&gt;, aos amigos:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://diogo.nu/&quot;&gt;Diogo Moretti&lt;/a&gt;, 
 &lt;a href=&quot;http://www.zigolis.com.br/&quot;&gt;Gabriel Zigolis&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/pssdn&quot;&gt;Bruno Possidonio&lt;/a&gt;,
 &lt;a href=&quot;http://www.felipefialho.com/&quot;&gt;Felipe Fialho&lt;/a&gt;, &lt;a href=&quot;http://da2k.com.br/&quot;&gt;Fernando Daciuk&lt;/a&gt;, 
-&lt;a href=&quot;http://pedronauck.com/&quot;&gt;Pedro Nauck&lt;/a&gt; e &lt;a href=&quot;http://eduardomatos.me/&quot;&gt;Eduardo Mattos&lt;/a&gt;. &lt;/p&gt;
+&lt;a href=&quot;http://pedronauck.com/&quot;&gt;Pedro Nauck&lt;/a&gt; e &lt;a href=&quot;http://eduardomatos.me/&quot;&gt;Eduardo Mattos&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Obs.: Pode ser um post no site ou um comentário aqui embaixo com o link do seu 
 Package Controll.sublime-settings :)&lt;/p&gt;
@@ -301,7 +342,7 @@ Package Controll.sublime-settings :)&lt;/p&gt;
 
 &lt;h2 id=&quot;o-evento&quot;&gt;O evento&lt;/h2&gt;
 
-&lt;p&gt;O evento foi bom demais! Ótima estrutura, site, vários brindes, oportunidades de emprego, grandes patrocinadores, só galera fera, cobertura, comunicação e algumas ótimas palestras. &lt;/p&gt;
+&lt;p&gt;O evento foi bom demais! Ótima estrutura, site, vários brindes, oportunidades de emprego, grandes patrocinadores, só galera fera, cobertura, comunicação e algumas ótimas palestras.&lt;/p&gt;
 
 &lt;p&gt;A escolha do local do evento foi fantástica, não compareci na primeira edição mas sei que foi no mesmo lugar então o local está aprovadíssimo. A organização do evento está de parabéns, tudo muito bem pensado &lt;a href=&quot;https://twitter.com/jaydson&quot;&gt;Jaydson&lt;/a&gt; e &lt;a href=&quot;https://twitter.com/felipenmoura&quot;&gt;Felipe Nascimento&lt;/a&gt; detonaram!&lt;/p&gt;
 
@@ -309,9 +350,9 @@ Package Controll.sublime-settings :)&lt;/p&gt;
 
 &lt;p&gt;As palestras na grande maioria foram fantásticas! Vou falar de algumas que realmente eu curti demais.&lt;/p&gt;
 
-&lt;p&gt;Data-binding [R]evolution com o &lt;a href=&quot;https://twitter.com/leobalter&quot;&gt;Léo Balter&lt;/a&gt; que falou sobre várias coisas legais e também sobre ES6/ES7, onde o item marcante foi o Object.observe e o exemplo de player utilizando o Object.observe com fallback para proxies. &lt;/p&gt;
+&lt;p&gt;Data-binding [R]evolution com o &lt;a href=&quot;https://twitter.com/leobalter&quot;&gt;Léo Balter&lt;/a&gt; que falou sobre várias coisas legais e também sobre ES6/ES7, onde o item marcante foi o Object.observe e o exemplo de player utilizando o Object.observe com fallback para proxies.&lt;/p&gt;
 
-&lt;p&gt;Single page apps com o &lt;a href=&quot;https://twitter.com/eduardolundgren&quot;&gt;Eduardo Lundgren&lt;/a&gt;, onde foi anunciado o &lt;a href=&quot;https://github.com/eduardolundgren/senna&quot;&gt;SENNA&lt;/a&gt; ferramenta incrível para criar esse tipo de aplicação de forma rápida, onde a requisição será apenas o conteúdo que precisa ser carregado nas surfaces definidas, tendo Bookmarkability e SEO, History Navigation, UI feedback e outras features. &lt;/p&gt;
+&lt;p&gt;Single page apps com o &lt;a href=&quot;https://twitter.com/eduardolundgren&quot;&gt;Eduardo Lundgren&lt;/a&gt;, onde foi anunciado o &lt;a href=&quot;https://github.com/eduardolundgren/senna&quot;&gt;SENNA&lt;/a&gt; ferramenta incrível para criar esse tipo de aplicação de forma rápida, onde a requisição será apenas o conteúdo que precisa ser carregado nas surfaces definidas, tendo Bookmarkability e SEO, History Navigation, UI feedback e outras features.&lt;/p&gt;
 
 &lt;p&gt;O &lt;a href=&quot;https://twitter.com/renatomangini&quot;&gt;Renato Mangini&lt;/a&gt; falou sobre os Service Workers onde o mesmo é implementado via JavaScript na primeira vez que o usuário acessa a página, a partir daí ele roda em background, muito foda!&lt;/p&gt;
 
@@ -349,7 +390,7 @@ Package Controll.sublime-settings :)&lt;/p&gt;
     &lt;p&gt;Não basta somente trazer pessoal de fora bom, eles precisam saber externalizar o que sabem, enquanto alguns falavam, a grande maioria dava de ver que não estavam gostando, é claro que é impossível agradar a todos, mas quando a maioria não gosta algo de errado tem.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Algumas palestras pareciam terem sido feitas um dia antes do evento, enquanto a grande maioria se dedicou criando uma apresentação foda, outros não transpareceram isso. &lt;/p&gt;
+    &lt;p&gt;Algumas palestras pareciam terem sido feitas um dia antes do evento, enquanto a grande maioria se dedicou criando uma apresentação foda, outros não transpareceram isso.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -359,26 +400,26 @@ Package Controll.sublime-settings :)&lt;/p&gt;
 
 &lt;h4 id=&quot;quinta-feira-21082014&quot;&gt;Quinta-feira, 21/08/2014&lt;/h4&gt;
 
-&lt;p&gt;RENATO MANGINI - Why ServiceWorker may be the next big thing:  &lt;/p&gt;
+&lt;p&gt;RENATO MANGINI - Why ServiceWorker may be the next big thing:&lt;/p&gt;
 
-&lt;p&gt;CHRIS MILLER - Frontend at Scale - The Tumblr Story  &lt;/p&gt;
+&lt;p&gt;CHRIS MILLER - Frontend at Scale - The Tumblr Story&lt;/p&gt;
 
-&lt;p&gt;NICK DESAULNIERS - Intro to GFX: Raw WebGL&lt;br /&gt;
+&lt;p&gt;NICK DESAULNIERS - Intro to GFX: Raw WebGL
 &lt;a href=&quot;http://nickdesaulniers.github.io/RawWebGL/#/&quot;&gt;http://nickdesaulniers.github.io/RawWebGL/#/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;JÖRN ZAEFFERER - Effective jQuery
 &lt;a href=&quot;http://jzaefferer.github.io/effective-jquery/#1&quot;&gt;http://jzaefferer.github.io/effective-jquery/#1&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;CHRIS MILLS - Web versus native: round 1?&lt;br /&gt;
+&lt;p&gt;CHRIS MILLS - Web versus native: round 1?
 &lt;a href=&quot;http://www.slideshare.net/chrisdavidmills/web-versus-native-round-1&quot;&gt;http://www.slideshare.net/chrisdavidmills/web-versus-native-round-1&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;MAURICIO WOLFF - Limpando CSS gigantes com JS
 &lt;a href=&quot;https://speakerdeck.com/bitbonsai/braziljs-2014-talk&quot;&gt;https://speakerdeck.com/bitbonsai/braziljs-2014-talk&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;EDUARDO LUNDGREN - Single Page Applications Done Right&lt;br /&gt;
+&lt;p&gt;EDUARDO LUNDGREN - Single Page Applications Done Right
 &lt;a href=&quot;https://speakerdeck.com/eduardolundgren/single-page-applications-done-right&quot;&gt;https://speakerdeck.com/eduardolundgren/single-page-applications-done-right&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;GUILLERMO RAUCH - undefinned  &lt;/p&gt;
+&lt;p&gt;GUILLERMO RAUCH - undefinned&lt;/p&gt;
 
 &lt;h4 id=&quot;sexta-feira-22082014&quot;&gt;Sexta-feira, 22/08/2014&lt;/h4&gt;
 
@@ -394,10 +435,10 @@ Package Controll.sublime-settings :)&lt;/p&gt;
 &lt;p&gt;ROB DODSON - The Web Component Ecosystem
 &lt;a href=&quot;https://speakerdeck.com/robdodson/the-web-component-ecosystem&quot;&gt;https://speakerdeck.com/robdodson/the-web-component-ecosystem&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;LEONARDO BALTER - Data-binding [R]evolution 
+&lt;p&gt;LEONARDO BALTER - Data-binding [R]evolution
 &lt;a href=&quot;http://leobalter.github.io/data-binding-slides/output/#1&quot;&gt;http://leobalter.github.io/data-binding-slides/output/#1&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;MILLER MEDEIROS - AST, CST e Ferramentas Incríveis&lt;br /&gt;
+&lt;p&gt;MILLER MEDEIROS - AST, CST e Ferramentas Incríveis
 &lt;a href=&quot;http://slides.millermedeiros.com/braziljs/ast/#/&quot;&gt;http://slides.millermedeiros.com/braziljs/ast/#/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;YEHUDA KATZ - A Day in the Life of an Ember Developer&lt;/p&gt;
